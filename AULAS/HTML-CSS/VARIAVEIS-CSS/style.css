@@ -1,0 +1,22 @@
+:root {
+    --tamanhoFontePrincipal: 5em;
+    --varCorTextoPrincipal: #37ff00;
+    --raio: 20px solid #000;
+}
+
+div {
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    border: var(--raio);
+}
+
+h1 {
+    color: var(--varCorTextoPrincipal);
+    font-size: var(--tamanhoFontePrincipal);
+}
+
+h2 {
+    color: var(--varCorTextoPrincipal);
+    font-size: var(--tamanhoFontePrincipal);
+}
